@@ -1,0 +1,53 @@
+body {
+	margin:0;
+	padding: 0;
+	font: 15px "Open Sans", sans-serif;
+	background-color: #8800FF;
+	color:#000000;
+	text-align:center;
+}
+
+a {
+  color: #00aeef;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  background-color: white;
+  color: black;
+  padding: 2rem 0 4rem;
+}
+p {
+	padding: 1em;
+}
+ul {
+	text-align: left;
+}
+header {
+	text-align:center;
+	padding:2rem
+}
+header p:nth-child(1) {
+	font-weight:bold;
+	font-size:2rem;
+	margin:0;
+
+}
+header p:nth-child(2) {
+	margin: .5rem 0 0;
+	letter-spacing:.2em;
+	text-transform:uppercase;
+	letter-spacing:.2em;
+}
+.non-padded {
+	padding:0em;
+}
+
+main img {
+  display: block;
+  width: 12rem;
+  max-width: 50%;
+  margin: 0 auto 1rem;
+  height: auto;
+  border-radius: 50%;
+}
