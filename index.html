@@ -2,6 +2,7 @@
 <html>
 <head>
 	<script type="text/javascript">
+	<!--Jscript for colour change-->
     setInterval(function(){
       
       var r = Math.floor(Math.random() * 255) + 51 ;
@@ -11,6 +12,7 @@
       document.body.style.backgroundColor = "rgb( " + r + "," + g + "," + b + ")";
     }, 2000)
     var count=0;
+    <!--code for button clicking-->
     function spammer(number){
     	count=count+number;
     	document.getElementById("count").innerHTML=count;
@@ -19,10 +21,12 @@
     	}
     	
     };
+    <!-- Code to reset game -->
     function reset(){
     	count=0;
     	document.getElementById("count").innerHTML=count;
     };
+    <!-- What happens when you win the game -->
     function win(){
     	alert("You win!");
     	reset();
