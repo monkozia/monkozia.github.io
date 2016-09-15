@@ -1,8 +1,13 @@
 div {
-	background-image: url(button.jpg);
-	background-repeat: no-repeat;	
+  border: 2px solid black;   
 }
 
+div {
+	background-image: url(button.jpg);
+	background-repeat: no-repeat;	
+	background-position: center;
+	background-size: cover;
+}
 body {
 	margin:0;
 	padding: 0;
@@ -55,8 +60,4 @@ main img {
   margin: 0 auto 1rem;
   height: auto;
   border-radius: 50%;
-}
-
-.un-highlighted {
-	color:#000000;
 }
