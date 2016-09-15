@@ -1,5 +1,6 @@
 div {
 	background-image: url(button.jpg);
+	background-repeat: no-repeat;	
 }
 
 body {
