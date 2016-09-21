@@ -1,17 +1,18 @@
 
 <!-- hope this works-->
-div {
-  border: 2px solid black;
-  text-align:center;
+
+.big {
+	font-size:40px;
 }
 
 div {
+	border: 2px solid black;
+  	text-align:center;
 	background-image: url(button1.jpg);
 	background-repeat: no-repeat;	
 	background-position: center;
 	background-size: cover;
 	text-align:center;
-	color: #FFFFFF;
 }
 <!--Hello-->
 body {
