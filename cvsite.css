@@ -69,3 +69,7 @@ main img {
   height: auto;
   border-radius: 50%;
 }
+
+nav ul {
+	display:in-line;
+}
