@@ -81,3 +81,7 @@ nav li {
 	float:left;
 	
 }
+
+nav li a {
+	padding:14px 16px;
+}
