@@ -72,8 +72,11 @@ main img {
 
 nav ul {
 	display:in-line;
+	list-style-type:none;
+	
 }
 
 nav li {
-	display:in-line;
+	display:block;
+	
 }
