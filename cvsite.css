@@ -78,5 +78,6 @@ nav ul {
 
 nav li {
 	display:block;
+	float:left;
 	
 }
