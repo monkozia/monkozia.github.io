@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+            setInterval(function(){
+      
+            var r = Math.floor(Math.random() * 255) + 51 ;
+            var g = Math.floor(Math.random() * 255) + 51 ;
+            var b = Math.floor(Math.random() * 255) + 51                                                                                                                                                                                                                                                                                                                 
+            document.body.style.backgroundColor = "rgb( " + r + "," + g + "," + b + ")";
+            }, 2000)
+     </script>
+        <!--Hi!-->
+     <title>MTG Card Designer</title>
+     <link href="cvsite.css" rel="stylesheet" type="text/css"/>
+   </head>
+   <body>
+    <div>
+      <p id="title"></p>
+    </div>
+    <div>
+      <p id="image"></p>
+    </div>
+    <div>
+      <p id="description"></p>
+    </div>
+    <div>
+      <p id="stats"></p>
+    </div>
+  </body>
+</html>
